@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tabel11</title>
+</head>
+<body>
+<h3>flavortext</h3>
+<table border="1">
+    <tr>
+        <td colspan="4" rowspan="7"><br><center><strong>Venkateshwara<br> Enterprises</strong></center><br><br>
+        <center>Shed No. D-30, Industrial Estate,</center><br>
+            <center>B.H. Road, Tumkur - 572 103, Karnataka</center> <br>
+            <center>Mob: 94803 77407, 98440 91647</center><br>
+            <center>TIN: 29690400291</center></td>
+        <td colspan="2"><center><strong>INVOICE</strong></center><br>
+            Rule (52A & 173 of the Central Excise RUles 1984)
+        </td>
+        <td colspan="2"><strong>BOOK COPY</strong></td>
+        <td colspan="2">Date: 9-2-15</td>
+        <td>SI. No. 057</td>
+    </tr>
+    <tr>
+        <td colspan="4" rowspan="5">Name and Address of the Consignee<br><br>
+            Amalgamated Bean Coffee Trdg. Co. Ltd.<br><br>
+            No. 9, 2nd Floor, 7th Cross, N.S. Palya<br><br>
+            Bannerghatta Main Road,<br><br>
+            Bangalore - 560 076 <br><br>
+            <strong>PARTY's VAT No:</strong>2688367839<strong>CST No:</strong>87236
+        </td>
+        <td colspan="2"> Date & Time of Issue of Invoice</td>
+        <td> 9-2-15 5.20 PM</td>
+    </tr>
+    <tr>
+        <td colspan="2"> Date & Time of Removal of Goods</td>
+        <td> 9-2-15 5.30 PM</td>
+    </tr>
+    <tr>
+        <td colspan="2"> Tariff Heading No.</td>
+        <td>........................</td>
+    </tr>
+    <tr>
+        <td colspan="2"> Exemption Notification</td>
+        <td>........................</td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+        <td colspan="4"> Your Order No: PO/14/1060<br><br>
+            Order date: 04-02-2015
+        </td>
+        <td colspan="2"> SI. No. debit entry for duty in P.L.A/RG23 P.II</td>
+        <td>........................</td>
+    </tr>
+</table>
+</body>
+</html>
