@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="voorbeeldformulier.css">
+    <meta charset="UTF-8">
+    <title>Burton Education</title>
+</head>
+<body>
+<div id="wrapper">
+<h2><strong>Voorbeeldformulier</strong></h2>
+<form action="https://www.savatarian.com/html5/form.php" method="get">
+
+    <div class="form-group">
+        <label for="voornaam">Voornaam:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" name="voornaam" required>
+    </div>
+
+    <div class="form-group">
+        <label for="tussenvoegsel">Tussenvoegsel:</label>
+        <input type="text" name="tussenvoegsel">
+    </div>
+
+    <div class="form-group">
+        <label for="achternaam">Achternaam:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" name="achternaam" required>
+    </div>
+
+    <div class="radio">
+        <label for="geslacht">Geslacht:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <input type="radio" id="man" name="geslacht" value="man" required>
+        <label for="Man">Man</label>
+        <input type="radio" id="vrouw" name="geslacht" value="vrouw">
+        <label for="Vrouw">Vrouw</label>
+    </div><br>
+
+    <div class="select">
+        <label for="Kleur ogen">Kleur ogen:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <select name="Kleur ogen">
+            <option>Selecteer</option>
+            <option value="Groen">Groen</option>
+            <option value="Blauw">Blauw</option>
+            <option value="Bruin">Bruin</option>
+        </select>
+    </div><br>
+
+    <div class="date">
+        <label for="geboortedatum">Geboortedatum: </label>
+        <input type="date" name="geboortedatum" required>
+    </div><br>
+
+    <div class="textarea">
+        <label for="omschrijving">Omschrijving:</label>
+        <textarea cols="40" rows="10" name="omschrijving"></textarea>
+    </div><br>
+
+    <div class="checkbox">
+        <label for="lekkereten">Lekker eten:</label><br>
+        <input type="checkbox" name="lekkereten" value="sperciebonen">
+        <span class="checkbox">Sperciebonen</span><br>
+        <input type="checkbox" name="lekkereten" value="aardappelen">
+        <span class="checkbox">Aardappelen</span><br>
+        <input type="checkbox" name="lekkereten" value="hamburger">
+        <span class="checkbox">Hamburger</span>
+    </div>
+
+    <div class="buttons">
+    <button type="reset">Annuleer</button>
+        <input type="submit" name="Verzend">
+    </div>
+</form>
+</div>
+</body>
+</html>

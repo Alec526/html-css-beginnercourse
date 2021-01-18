@@ -1,0 +1,20 @@
+* {
+    box-sizing:border-box;
+}
+body {
+    font-family: "Arial", "sans-serif";
+}
+div#wrapper {
+    margin:auto;
+    width:1000px;
+    background-color:lightskyblue;
+    padding:50px;
+}
+div.form-group {
+    padding-bottom:18px;
+}
+div.buttons {
+    float:right;
+}
+div.checkbox {
+}
